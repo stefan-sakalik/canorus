@@ -73,6 +73,7 @@ CAPyConsole::CAPyConsole( CADocument *doc, QWidget *parent) : QTextEdit(parent) 
              "  /callscript path_to_script.py    to call external script\n"
              "  /entryfunc entry_function        to set or display entry function in script ran by /callscript\n"
              "  document                         variable to manipulate canorus itself\n"
+             "  CanorusPython                    library to create Canorus objects\n"
              "\n"
              ">>> ";
   setText(txt);
